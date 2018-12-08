@@ -7,27 +7,39 @@ body {
 html {
   font-size: 62.5%; }
 
+@media only screen and (min-width: 112.5em) {
+  font-size: 75%; }
+
+@media only screen and (max-width: 75em) {
+  font-size: 56.25%; }
+
+@media only screen and (max-width: 56.25em) {
+  font-size: 50%; }
+
+@media only screen and (max-width: 37.5em) {
+  font-size: 37.5%; }
+
 body {
   font-family: "Montserrat", sans-serif; }
 
 .nav {
   font-size: 4em;
-  font-family: "Poiret One", cursive; }
+  font-family: "Simonetta", cursive; }
   .nav__nav {
     font-size: .75em;
-    font-family: "Milonga", cursive; }
+    font-family: "Belleza", sans-serif; }
 
 .card {
   font-size: 1.75em; }
   .card__body-title {
-    font-family: "Poiret One", cursive; }
+    font-family: "Simonetta", cursive; }
 
 .form__container {
   font-size: 1.75em; }
   .form__container-contactField-input {
-    font-family: "Milonga", cursive; }
+    font-family: "Belleza", sans-serif; }
   .form__container-userField-input {
-    font-family: "Milonga", cursive; }
+    font-family: "Belleza", sans-serif; }
 
 .container {
   font-size: 1.75em; }
@@ -45,13 +57,25 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 0 1em 0 1em; }
+    @media only screen and (max-width: 37.5em) {
+      .nav__nav {
+        padding: 0; } }
     .nav__nav-brand {
       width: 25%;
       display: flex;
       justify-content: flex-start;
       padding: 0 1em 0 1em; }
+      @media only screen and (max-width: 37.5em) {
+        .nav__nav-brand {
+          justify-content: center; } }
     .nav__nav-link {
       padding: 1em 1em 1em 1em; }
+      @media only screen and (max-width: 37.5em) {
+        .nav__nav-link {
+          padding: 1em 0.25em 2.5em 0.25em; } }
+      @media only screen and (max-width: 56.25em) {
+        .nav__nav-link {
+          padding: 1em 0.75em 4em 0.75em; } }
     .nav__nav-item {
       margin: .5em 0 0 0; }
 
@@ -97,9 +121,18 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    #myphoto {
+      padding-bottom: 1em; } }
+  @media only screen and (max-width: 56.25em) {
+    #myphoto {
+      padding-bottom: 1.5em; } }
 
 #photoMDT {
-  box-shadow: 7px 7px 8px 10px #252524; }
+  box-shadow: 5px 10px 10px #747F50;
+  border-style: solid;
+  border-color: #252524;
+  border-width: 2px; }
 
 h3 {
   color: #747F50; }
@@ -153,6 +186,9 @@ h3 {
       justify-content: center;
       align-items: center;
       flex-direction: row; }
+      @media only screen and (max-width: 37.5em) {
+        .form__container-userField {
+          flex-direction: column; } }
       .form__container-userField-input {
         border-radius: 5px;
         padding: 10px; }
@@ -163,6 +199,9 @@ h3 {
       justify-content: center;
       align-items: center;
       flex-direction: row; }
+      @media only screen and (max-width: 37.5em) {
+        .form__container-contactField {
+          flex-direction: column; } }
       .form__container-contactField-input {
         border-radius: 5px;
         padding: 10px;
@@ -196,7 +235,7 @@ button:hover {
   background-color: #FFFCD5;
   overflow: auto;
   height: 1000px;
-  margin-top: 15em; }
+  margin-top: 10em; }
 
 #viewer {
   border-style: solid;

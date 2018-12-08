@@ -1,7 +1,7 @@
 {
   "name": "Bootstrap-Portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "portfolio updated with some sass",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
