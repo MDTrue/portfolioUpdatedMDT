@@ -1,0 +1,24 @@
+{
+  "name": "Bootstrap-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDTrue/Bootstrap-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDTrue/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/MDTrue/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

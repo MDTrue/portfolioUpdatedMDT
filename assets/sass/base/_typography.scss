@@ -1,0 +1,39 @@
+body {
+    font-family: $sanSerif;
+}
+.nav{
+    font-size: 4em;
+    font-family: $heading;
+    &__nav{
+        font-size: .75em;
+        font-family: $humanist;
+
+    }
+}
+.card{
+    font-size: 1.75em;
+    &__body-title{
+     
+        font-family: $heading;
+        
+
+    }
+}
+.form{
+    &__container{
+        font-size: 1.75em;
+        &-contactField{
+            &-input{
+                font-family: $humanist;
+            }
+        }
+        &-userField{
+            &-input{
+        font-family: $humanist;
+            }
+        }
+    }
+}
+.container{
+    font-size: 1.75em;
+}

@@ -1,0 +1,47 @@
+.container{
+    background-color: $color-secondary;
+   
+    overflow: auto;
+    height:1000px;
+    margin-top: 15em;
+ 
+}
+#viewer{
+    border-style: solid;
+    border-width: 5px;
+    border-color: $color-primary-dark;
+    
+}
+h2{
+    text-align: center;
+    color:$color-accentOne;
+}
+.img{
+    border-style: solid;
+    border-width: 1px 5px 1px 5px;
+    border-color: $color-primary-dark;
+}
+.button{
+  
+    padding: .5em 1em .5em 1em;
+    border: none;
+    background-color: $color-accentTwo;
+    color: $color-secondary;
+   
+  
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $color-primary;
+    border-radius: 5px;
+
+}
+.button:active {
+transform: translateY(1px);
+filter: saturate(150%);
+}
+.button:hover {
+color:$color-accentOne;
+border-color:  $color-accentOne;
+background-color: $color-primary;
+}

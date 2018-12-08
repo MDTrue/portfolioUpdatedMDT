@@ -1,0 +1,61 @@
+.about{
+    background-color: $color-secondary;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15em;
+    
+}
+.card{
+    background-color: $color-secondary;
+    display: flex;
+    justify-content: space-around;
+    // justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-style: none;
+    color: $color-primary-dark;
+    &__body-title{
+        color:$color-accentOne;
+    }
+    
+
+}
+ul{
+    list-style-type: none
+}
+#myphoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#photoMDT{
+    box-shadow: 7px 7px 8px 10px $color-primary-dark;
+    
+}
+h3{
+    color: $color-accentTwo;
+}
+.btn{
+   
+        padding: .5em;
+        border: none;
+        font: inherit;
+        color:$color-primary;
+        background-color: $color-secondary;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 2px;
+        border-color: $color-secondary;
+    
+}
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+  }
+  .btn:hover {
+    color:$color-accentOne;
+    border-color:  $color-accentOne;
+    background-color: $color-primary;
+  }

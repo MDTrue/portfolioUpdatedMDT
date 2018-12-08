@@ -1,0 +1,94 @@
+.form{
+    background-color: $color-secondary;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15em;
+
+    &__container {
+        
+        background-color: $color-primary;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        border-style: none;
+        border-radius: 25px;
+        color: $color-secondary;
+        border-style: solid;
+        border-width: 2px;
+        border-color: $color-primary;
+
+        &-heading{
+            padding: 20px;
+            color: $color-secondary;
+        }
+        &-userField{
+            padding: 20px;
+            color: $color-primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            
+            &-input{
+                border-radius: 5px;
+                padding: 10px;
+                // width: 25em;
+                
+            }
+        }
+        &-contactField{
+            padding: 20px;
+            color: $color-tertiary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+
+            &-input{
+                border-radius: 5px;
+                padding: 10px;
+                // width: 55em;
+                box-sizing: border-box;
+                
+            }
+
+        }
+        &-buttonField{
+            
+            padding: 20px;
+            display: flex;
+            justify-content: start;
+
+        
+            
+        }
+    }
+}
+button{
+   
+    padding: 1em 2em 1em 2em;
+    // border: none;
+    font: inherit;
+    color: $color-secondary;
+    background-color: $color-tertiary;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $color-primary;
+    border-radius: 5px;
+
+}
+button:active {
+transform: translateY(1px);
+filter: saturate(150%);
+}
+button:hover {
+color:$color-accentOne;
+border-color:  $color-accentOne;
+background-color: $color-primary;
+}
