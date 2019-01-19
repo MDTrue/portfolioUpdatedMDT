@@ -20,5 +20,6 @@
   "homepage": "https://github.com/MDTrue/Bootstrap-Portfolio#readme",
   "dependencies": {
     "node-sass": "^4.10.0"
-  }
+  },
+  "devDependencies": {}
 }

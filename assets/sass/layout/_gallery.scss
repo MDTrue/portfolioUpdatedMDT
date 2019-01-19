@@ -27,8 +27,8 @@ h2{
   
     padding: .5em 1em .5em 1em;
     border: none;
-    background-color: $color-accentTwo;
-    color: $color-secondary;
+    background-color: transparent;
+    color: $color-primary;
    
   
     cursor: pointer;
@@ -43,7 +43,7 @@ transform: translateY(1px);
 filter: saturate(150%);
 }
 .button:hover {
-color:$color-accentOne;
+color:$color-secondary;
 border-color:  $color-accentOne;
 background-color: $color-primary;
 }

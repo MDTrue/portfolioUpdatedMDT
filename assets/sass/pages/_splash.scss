@@ -1,0 +1,26 @@
+.splash{
+    display:flex;
+    flex-direction: column;
+    @include center-element;
+    
+
+ &__heading{
+    font-size: 8em;
+    color: $color-tertiary;
+    text-align: center;
+   
+  }
+ &__subHeading{
+    font-size: 5em;
+    color: $color-accentTwo;
+    text-align: center;
+    
+  }
+  &__Button{
+      @include button-reset;
+    font-size: 5em;
+    color: $color-primary;
+    text-align: center;
+      
+  }
+}

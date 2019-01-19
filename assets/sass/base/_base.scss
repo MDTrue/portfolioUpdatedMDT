@@ -1,5 +1,6 @@
 body {
     background-color: $color-secondary;
+    // background-color: black;
     margin: 0;
     padding: 0;
     color:$color-primary-dark;
@@ -25,3 +26,38 @@ html {
   @include responsive(phone) { // width < 600?
     font-size: 37.5%; //1rem = 6px 6/16 = 37.5%
   }
+
+  a{
+   
+    text-decoration:  none;
+    outline: none;
+    
+  
+  }
+  a:link {
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+    outline: none;
+    
+  
+    } 
+  a:visited {
+    /* Applies to all visited links */
+    text-decoration:  none;
+    outline: none;
+  
+    } 
+  a:hover   {
+    /* Applies to links under the pointer */
+   
+    text-decoration:  none;
+    outline: none;
+    
+  
+    } 
+  a:active  {
+    /* Applies to activated links */
+    text-decoration:  none;
+    outline: none;
+  }
+  
